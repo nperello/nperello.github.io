@@ -3,7 +3,7 @@ title: "Resilience of Supervised Learning Algorithms to Discriminatory Data Pert
 collection: publications
 permalink: /publication/resilience
 excerpt:
-date: 2021
+date: 2021-07-07
 venue: 'preprint'
 paperurl:
 citation: 'Przemyslaw A. Grabowicz, Nicholas Perello, and Kenta Takatsu. Resilience of Supervised Learning Algorithms to Discriminatory Data Perturbations. In preprint, 2021.'
