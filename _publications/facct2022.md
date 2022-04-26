@@ -1,6 +1,5 @@
 ---
-title: "Marrying Fairness and Explainability in Supervised
-Learning"
+title: "Marrying Fairness and Explainability in Supervised Learning"
 collection: publications
 permalink: /publication/facct2022
 excerpt:
