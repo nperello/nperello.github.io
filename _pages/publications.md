@@ -12,17 +12,24 @@ author_profile: true
 
 {% include base_path %}
 
+<h2>In Preperation</h2>
 {% for post in site.publications reversed %}
-  {% include archive-single.html %}
+  {% if post.collection == 'inprogress' %}
+    {% include archive-single.html %}
+  {% endif %}
 {% endfor %}
 
----
-layout: archive
-title: "Non-Archival Publications"
-permalink: /publicationsnon/
-author_profile: true
----
-{% include base_path %}
-{% for post in site.publicationsnon reversed %}
-  {% include archive-single.html %}
+<h2>Archival</h2>
+{% for post in site.publications reversed %}
+  {% if post.collection == 'publications' %}
+    {% include archive-single.html %}
+  {% endif %}
 {% endfor %}
+
+<h2>Non-Archival</h2>
+{% for post in site.publications reversed %}
+  {% if post.collection == 'nonarchival' %}
+    {% include archive-single.html %}
+  {% endif %}
+{% endfor %}
+
