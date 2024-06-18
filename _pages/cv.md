@@ -8,4 +8,4 @@ redirect_from:
 ---
 
 {% include base_path %}
-My CV can be found [here](https://nperello.github.io/files/nperello_resume_cleaned.pdf).
+My CV can be found [here](https://nperello.github.io/files/nperello_resume_cleaned_24.pdf).
