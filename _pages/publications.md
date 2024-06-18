@@ -21,7 +21,7 @@ author_profile: true
 
 <h2>Archival</h2>
 {% for post in site.publications reversed %}
-  {% if post.pubtype  == 'publications' %}
+  {% if post.pubtype  == 'archival' %}
     {% include archive-single.html %}
   {% endif %}
 {% endfor %}
