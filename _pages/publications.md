@@ -17,3 +17,7 @@ author_profile: true
 {% endfor %}
 
 ## Non-Archival
+
+{% for post in site.publicationsnon reversed %}
+  {% include archive-single.html %}
+{% endfor %}
