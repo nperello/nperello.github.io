@@ -1,6 +1,6 @@
 ---
 title: "Towards an AI Accountability Policy."
-collection: publications
+collection: nonarchival
 permalink: /publication/ntia
 excerpt:
 date: 2023-07-07

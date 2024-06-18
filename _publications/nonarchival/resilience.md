@@ -1,6 +1,6 @@
 ---
 title: "Resilience of Supervised Learning Algorithms to Discriminatory Poisoning of Training Data"
-collection: publications
+collection: nonarchival
 permalink: /publication/resilience
 excerpt:
 date: 2021-07-07

@@ -1,6 +1,6 @@
 ---
 title: "Intervention Aware Shared Autonomy"
-collection: publications
+collection: nonarchival
 permalink: /publication/HAIC2021
 excerpt:
 date: 2021-07-07

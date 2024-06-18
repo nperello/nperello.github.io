@@ -1,6 +1,6 @@
 ---
 title: "Discrimination Induced by Algorithmic Recourse Objectives"
-collection: publications
+collection: inprogress
 permalink: /publication/frecourse
 excerpt:
 date: 2021-07-07

@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Nicholas Perello"
-  avatar           : "profile.jpg"
+  avatar           : "profile.png"
   bio              : "Fairness and Explainability in Machine Learning Ph.D. Student."
   location         : "UMass Amherst"
   employer         :

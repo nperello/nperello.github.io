@@ -1,6 +1,6 @@
 ---
 title: "Simple Steps to Success: Axiomatics of Distance-Based Algorithmic Recourse"
-collection: publications
+collection: inprogress
 permalink: /publication/step
 excerpt:
 date: 2021-07-07
