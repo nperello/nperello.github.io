@@ -12,23 +12,23 @@ author_profile: true
 
 {% include base_path %}
 
-<h2>In Preperation</h2>
+<h2>In Preparation</h2>
 {% for post in site.publications reversed %}
-  {% if post.collection == 'inprogress' %}
+  {% if post.pubtype  == 'inprogress' %}
     {% include archive-single.html %}
   {% endif %}
 {% endfor %}
 
 <h2>Archival</h2>
 {% for post in site.publications reversed %}
-  {% if post.collection == 'publications' %}
+  {% if post.pubtype  == 'publications' %}
     {% include archive-single.html %}
   {% endif %}
 {% endfor %}
 
 <h2>Non-Archival</h2>
 {% for post in site.publications reversed %}
-  {% if post.collection == 'nonarchival' %}
+  {% if post.pubtype  == 'nonarchival' %}
     {% include archive-single.html %}
   {% endif %}
 {% endfor %}
