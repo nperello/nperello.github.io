@@ -16,8 +16,13 @@ author_profile: true
   {% include archive-single.html %}
 {% endfor %}
 
-## Non-Archival
-
+---
+layout: archive
+title: "Non-Archival Publications"
+permalink: /publicationsnon/
+author_profile: true
+---
+{% include base_path %}
 {% for post in site.publicationsnon reversed %}
   {% include archive-single.html %}
 {% endfor %}
