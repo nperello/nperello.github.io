@@ -12,7 +12,7 @@ author_profile: true
 
 {% include base_path %}
 
-<h2>In Preparation</h2>
+<h2>Under Review</h2>
 {% for post in site.publications reversed %}
   {% if post.pubtype  == 'inprogress' %}
     {% include archive-single.html %}
