@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Nicholas Perello"
 title_separator          : "-"
 name                     : &name "Nicholas Perello"
-description              : &description "Ph.D. student at UMass Amherst"
+description              : &description "Ph.D. candidate at UMass Amherst"
 url                      : https://nperello.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "nperello/nperello.github.io"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Nicholas Perello"
   avatar           : "profile2.png"
-  bio              : "Fairness and Explainability in Machine Learning Ph.D. Student."
+  bio              : "Fairness and Explainability in Machine Learning Ph.D. Candidate."
   location         : "UMass Amherst"
   employer         :
   pubmed           : 

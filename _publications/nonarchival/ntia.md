@@ -1,5 +1,5 @@
 ---
-title: "Towards an AI Accountability Policy."
+title: "Towards an AI Accountability Policy"
 collection: publications
 permalink: /publication/ntia
 excerpt:
