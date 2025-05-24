@@ -12,13 +12,6 @@ author_profile: true
 
 {% include base_path %}
 
-<h2>Under Review</h2>
-{% for post in site.publications reversed %}
-  {% if post.pubtype  == 'inprogress' %}
-    {% include archive-single.html %}
-  {% endif %}
-{% endfor %}
-
 <h2>Archival</h2>
 {% for post in site.publications reversed %}
   {% if post.pubtype  == 'archival' %}
