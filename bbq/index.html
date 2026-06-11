@@ -1,10 +1,3 @@
----
-layout: archive
-title: "bbq"
-permalink: /bbq
-author_profile: false
----
-
 <!doctype html>
 <html lang="en">
 <head>
@@ -1303,7 +1296,7 @@ function Tier3({ category, group, onBack }) {
     <div>
       <div style={{ display: "flex", alignItems: "baseline", gap: 12, marginBottom: 4 }}>
         <button onClick={onBack} style={{ background: "none", border: "none", cursor: "pointer", fontSize: 14, padding: 0, color: "#444" }}>← Back</button>
-        <h2 style={{ margin: 0, fontSize: 18, fontWeight: 700 }}>Tier 3: {data[category].label} → {group}</h2>
+        <h2 style={{ margin: 0, fontSize: 18, fontWeight: 700 }}>Tier 3: {data[category].label} — {group}</h2>
         <span style={{ fontSize: 13, color: "#888" }}>Per-template breakdown.</span>
       </div>
       <div style={{ marginTop: 4, fontSize: 11, color: "#888", lineHeight: 1.5 }}>
