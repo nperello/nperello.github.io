@@ -13,10 +13,13 @@
     * { box-sizing: border-box; }
     .loading { padding: 40px; text-align: center; color: #888; font-size: 14px; }
   </style>
-  <!-- React 18 + Babel Standalone from CDN -->
-  <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
-  <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
-  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  <!-- React 18 + Babel Standalone from CDN. Versions pinned to known-good
+       releases so unpkg's "latest" rolls don't break the in-browser JSX pipeline
+       (an unpinned @babel/standalone shipped a regression in mid-2026 that broke
+       script-tag transform). -->
+  <script crossorigin src="https://unpkg.com/react@18.3.1/umd/react.production.min.js"></script>
+  <script crossorigin src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.production.min.js"></script>
+  <script src="https://unpkg.com/@babel/standalone@7.25.6/babel.min.js"></script>
 </head>
 <body>
   <div id="root"><div class="loading">Compiling JSX…</div></div>
@@ -1296,7 +1299,7 @@ function Tier3({ category, group, onBack }) {
     <div>
       <div style={{ display: "flex", alignItems: "baseline", gap: 12, marginBottom: 4 }}>
         <button onClick={onBack} style={{ background: "none", border: "none", cursor: "pointer", fontSize: 14, padding: 0, color: "#444" }}>← Back</button>
-        <h2 style={{ margin: 0, fontSize: 18, fontWeight: 700 }}>Tier 3: {data[category].label} — {group}</h2>
+        <h2 style={{ margin: 0, fontSize: 18, fontWeight: 700 }}>Tier 3: {data[category].label} → {group}</h2>
         <span style={{ fontSize: 13, color: "#888" }}>Per-template breakdown.</span>
       </div>
       <div style={{ marginTop: 4, fontSize: 11, color: "#888", lineHeight: 1.5 }}>
