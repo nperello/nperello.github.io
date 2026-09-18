@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a Ph.D. candidate at the University of Massachusetts Amherst working with [Przemyslaw A. Grabowicz](https://przemyslslaw.github.io/) and [Yair Zick](https://people.umass.edu/yzick/).
+I am a Ph.D. candidate at the University of Massachusetts Amherst working with [Przemyslaw A. Grabowicz](https://przemyslslaw.github.io/) and [Yair Zick](https://people.cs.umass.edu/~yzick/).
 
 **I am on the job market.** I expect to complete my Ph.D. in early 2027 and am seeking postdoctoral positions, fellowships at AI safety labs, and industry research roles. My expertise is in explainability and interpretability, responsible AI, and the evaluation and auditing of machine learning systems, recently focusing on large language models. If you are hiring, feel free to reach out.
 {: .notice--info}
