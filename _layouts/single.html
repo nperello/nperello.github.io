@@ -48,6 +48,9 @@ layout: default
         {% elsif page.citation %}
           <p>Recommended citation: {{ page.citation }} </p>
         {% endif %}
+        {% if page.citation contains "*" or page.citation contains "^" %}
+          <p class="page__meta">{% if page.citation contains "*" %}*Equal contribution{% endif %}{% if page.citation contains "*" and page.citation contains "^" %}, {% endif %}{% if page.citation contains "^" %}^Equal advising{% endif %}</p>
+        {% endif %}
     
         </header>
       {% endunless %}
