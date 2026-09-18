@@ -34,6 +34,13 @@
       {% if author.email %}
         <li><a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].email_label | default: "Email" }}</a></li>
       {% endif %}
+      {% if author.email_user and author.email_domain %}
+        {% comment %} Address is never written to the HTML: the parts are stored reversed and joined by the browser, so HTML scrapers find no email. {% endcomment %}
+        {% assign eu = author.email_user | split: "" | reverse | join: "" %}
+        {% assign ed = author.email_domain | split: "" | reverse | join: "" %}
+        <li><a href="#" id="author-email" data-u="{{ eu }}" data-d="{{ ed }}" rel="nofollow"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].email_label | default: "Email" }}</a></li>
+        <script>(function(){var a=document.getElementById("author-email");if(!a)return;var r=function(s){return s.split("").reverse().join("")};var m=r(a.getAttribute("data-u"))+"@"+r(a.getAttribute("data-d"));a.href="mailto:"+m;a.title=m;})();</script>
+      {% endif %}
       {% if author.keybase %}
         <li><a href="https://keybase.io/{{ author.keybase }}"><i class="fas fa-fw fa-key" aria-hidden="true"></i> Keybase</a></li>
       {% endif %}

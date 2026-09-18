@@ -90,7 +90,9 @@ author:
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=xqXuL98AAAAJ&hl=en"
-  email            :
+  email            : # left blank on purpose; see email_user/email_domain
+  email_user       : "nperello"   # assembled in the browser so scrapers never see the address
+  email_domain     : "umass.edu"
   researchgate     :  
   uri              :
   bitbucket        :
