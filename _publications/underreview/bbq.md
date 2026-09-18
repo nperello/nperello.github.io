@@ -7,7 +7,7 @@ description: "Under review, 2026. An audit showing how BBQ's scoring and reporti
 date: 2026-09-01
 venue: 'Under review'
 paperurl:
-pubtype : 'nonarchival'
+pubtype : 'underreview'
 citation: 'Nicholas Perello, Przemyslaw A. Grabowicz, Yair Zick. Grilling BBQ: The Limits of Bias Benchmarking in LLM Safety Reporting. Under review, 2026.'
 ---
 
