@@ -1,7 +1,7 @@
 ---
 permalink: /
 title: ""
-excerpt: "About me"
+excerpt: "Nicholas Perello is a computer science Ph.D. candidate at UMass Amherst researching fairness, explainability, and the evaluation of large language models."
 author_profile: true
 redirect_from: 
   - /about/

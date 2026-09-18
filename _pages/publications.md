@@ -2,6 +2,7 @@
 layout: archive
 title: "Publications"
 permalink: /publications/
+excerpt: "Publications by Nicholas Perello on algorithmic fairness, explainability, algorithmic recourse, and bias benchmarking for large language models."
 author_profile: true
 ---
 *Equal contribution, ^Equal advising

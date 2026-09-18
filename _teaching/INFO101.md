@@ -1,9 +1,9 @@
 ---
-title: "CS383 Artificial Intelligence (Spring 2021, Fall 2021, Spring 2022, Fall 2022)"
+title: "INFO101: Introduction to Informatics (Fall 2025)"
 collection: teaching
 type: "Teaching Assistant"
 permalink: 
 venue: "UMass Amherst"
-date: 2021-01-01
+date: 2025-09-02
 location: "Amherst, MA"
 ---

@@ -5,5 +5,5 @@ type: "Teaching Assistant"
 permalink: 
 venue: "UMass Amherst"
 date: 2020-09-01
-location: "City, Country"
+location: "Amherst, MA"
 ---

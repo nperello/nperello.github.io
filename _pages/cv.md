@@ -2,6 +2,7 @@
 layout: archive
 title: "CV"
 permalink: /cv/
+excerpt: "Curriculum vitae of Nicholas Perello, Ph.D. candidate in computer science at UMass Amherst."
 author_profile: true
 redirect_from:
   - /resume
