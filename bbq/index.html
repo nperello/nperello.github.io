@@ -233,6 +233,7 @@
     <div class="panel-head"><h4>1. Choose the results file</h4><span class="what">Either the classified table the release writes (results/reanalysis/classified.csv.gz) or a raw responses file from its runners (results/raw/&lt;model&gt;_raw.csv, .gz accepted). Raw responses are parsed with the release's own extractor; the judge adjudication step is not available here, so responses that fail parsing are excluded from denominators.</span></div>
     <div class="controls"><label>File <input type="file" id="up-file" accept=".csv,.gz,text/csv,application/gzip"></label></div>
     <div id="up-detect" class="smallnote"></div>
+    <div class="smallnote" style="margin-top:.6rem">No results file yet? <a href="bbq_runner.zip">Download the runner</a>: the study's generation pipeline in one folder. It fetches BBQ at the pinned commit, builds the same prompts, queries any OpenAI-compatible endpoint, the Anthropic API, or your own code, and writes the file this page reads. A sample mode gives a first result in minutes.</div>
   </div>
   <div class="panel">
     <div class="panel-head"><h4>2. Describe the model</h4><span class="what">Shown on the model tabs and in the Evaluation setup section.</span></div>
