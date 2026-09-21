@@ -375,6 +375,7 @@ table.data tr.row td:first-child::before{content:"›";position:absolute;left:.4
 .formula{white-space:nowrap}
 .block .formula{font-size:.92rem;padding:.6rem .8rem}
 
+[hidden]{display:none!important}
 /* phones */
 .model-select{display:none}
 .pv-example{grid-template-columns:minmax(0,1.4fr) minmax(0,1fr)}
