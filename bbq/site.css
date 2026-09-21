@@ -6,7 +6,7 @@
   color-scheme:light;
   --bg:#ffffff; --surface:#ffffff; --surface-2:#f5f5f7; --surface-3:#e8e8ed; --ink:#1d1d1f; --ink-2:#424245; --muted:#86868b;
   --line:#d2d2d7; --line-2:#1d1d1f; --accent:#d9480f; --accent-inv:#ff9f0a; --accent-soft:#fdeee6; --steel:#0066cc; --steel-soft:#e8f0fb; --blue:#0071e3;
-  --s1:#1baf7a; --s2:#eda100; --s3:#e87ba4; --s4:#008300; --s5:#4a3aa7; --grey:#c3c2b7;
+  --s1:#1baf7a; --s2:#eda100; --s3:#e87ba4; --s4:#008300; --s5:#4a3aa7; --s6:#0071e3; --s7:#b3541e; --s8:#7a7a7e; --grey:#c3c2b7;
   --r0:#cde2fb; --r1:#b7d3f6; --r2:#9ec5f4; --r3:#6da7ec; --r4:#3987e5; --r5:#256abf; --r6:#184f95; --r7:#0d366b;
   --grid:#e8e8ed; --axis:#d2d2d7;
   --display:-apple-system,BlinkMacSystemFont,"SF Pro Display","SF Pro Text","Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -21,7 +21,7 @@
     color-scheme:dark;
     --bg:#000000; --surface:#000000; --surface-2:#1d1d1f; --surface-3:#2c2c2e; --ink:#f5f5f7; --ink-2:#d2d2d7; --muted:#86868b;
     --line:#424245; --line-2:#f5f5f7; --accent:#ff9f0a; --accent-inv:#c93400; --accent-soft:#3a2a10; --steel:#2997ff; --steel-soft:#0f2540; --blue:#0071e3;
-    --s1:#199e70; --s2:#c98500; --s3:#d55181; --s4:#008300; --s5:#9085e9; --grey:#4a4a47;
+    --s1:#199e70; --s2:#c98500; --s3:#d55181; --s4:#008300; --s5:#9085e9; --s6:#2997ff; --s7:#e0813f; --s8:#9a9aa0; --grey:#4a4a47;
     --r0:#0d366b; --r1:#104281; --r2:#184f95; --r3:#1c5cab; --r4:#256abf; --r5:#3987e5; --r6:#6da7ec; --r7:#9ec5f4;
     --grid:#2c2c2e; --axis:#424245;
     --shadow:0 4px 24px rgba(0,0,0,.6);
@@ -31,7 +31,7 @@
   color-scheme:dark;
   --bg:#000000; --surface:#000000; --surface-2:#1d1d1f; --surface-3:#2c2c2e; --ink:#f5f5f7; --ink-2:#d2d2d7; --muted:#86868b;
   --line:#424245; --line-2:#f5f5f7; --accent:#ff9f0a; --accent-inv:#c93400; --accent-soft:#3a2a10; --steel:#2997ff; --steel-soft:#0f2540; --blue:#0071e3;
-  --s1:#199e70; --s2:#c98500; --s3:#d55181; --s4:#008300; --s5:#9085e9; --grey:#4a4a47;
+  --s1:#199e70; --s2:#c98500; --s3:#d55181; --s4:#008300; --s5:#9085e9; --s6:#2997ff; --s7:#e0813f; --s8:#9a9aa0; --grey:#4a4a47;
   --r0:#0d366b; --r1:#104281; --r2:#184f95; --r3:#1c5cab; --r4:#256abf; --r5:#3987e5; --r6:#6da7ec; --r7:#9ec5f4;
   --grid:#2c2c2e; --axis:#424245;
   --shadow:0 4px 24px rgba(0,0,0,.6);
