@@ -230,13 +230,13 @@
 <section class="tier" id="upload">
   <div class="tier-head"><div class="eyebrow">Add your model</div><h2>Report your own BBQ run in the same tiers</h2><p class="why">Run a model on BBQ with the released pipeline, then choose the results file here. The page computes every tier in your browser under the study's conventions. The finished report is kept in this browser only.</p></div>
   <div class="panel">
-    <div class="panel-head"><h4>1. Choose the results file</h4><span class="what">Either the classified table the release writes (results/reanalysis/classified.csv.gz) or a raw responses file from its runners (results/raw/&lt;model&gt;_raw.csv, .gz accepted). Raw responses are parsed with the release's own extractor; the judge adjudication step is not available here, so responses that fail parsing are excluded from denominators.</span></div>
+    <div class="panel-head"><h4>1. Choose the results file</h4><span class="what">A raw responses file from the runners, or the release's classified table. Plain or .gz. Responses that fail parsing are excluded and counted.</span></div>
     <div class="controls"><label>File <input type="file" id="up-file" accept=".csv,.gz,text/csv,application/gzip"></label></div>
     <div id="up-detect" class="smallnote"></div>
-    <div class="smallnote" style="margin-top:.6rem">No results file yet? <a href="bbq_runner.zip">Download the runner</a>: the study's generation pipeline in one folder. It fetches BBQ at the pinned commit, builds the same prompts, queries any OpenAI-compatible endpoint, the Anthropic API, or your own code, and writes the file this page reads. A sample mode gives a first result in minutes.</div>
+    <div class="smallnote" style="margin-top:.6rem">No results file yet? <a href="bbq_runner.zip">Download the runner</a>. It runs BBQ against an API or your own code and writes the file this page reads.</div>
   </div>
   <div class="panel">
-    <div class="panel-head"><h4>2. Describe the model</h4><span class="what">Shown on the model tabs and in the Evaluation setup section.</span></div>
+    <div class="panel-head"><h4>2. Describe the model</h4><span class="what">Shown on the model tabs and in the setup section.</span></div>
     <div class="controls">
       <label>Name <input type="text" id="up-name" placeholder="e.g. Llama 5 70B"></label>
       <label>Short name <input type="text" id="up-short" placeholder="e.g. Llama 5"></label>
@@ -253,7 +253,7 @@
     <div class="next-cta"><button type="button" class="btn primary big" id="up-go" disabled>Compute the report ›</button><span class="hint" id="up-status">Choose a file to begin.</span></div>
   </div>
   <div class="panel">
-    <div class="panel-head"><h4>Models you have added</h4><span class="what">Stored in this browser only. Download a model's data file to host its report yourself with the page's files (see PLUGIN.md in the site sources).</span></div>
+    <div class="panel-head"><h4>Models you have added</h4><span class="what">Stored in this browser only. Download a model's data file to host its report yourself.</span></div>
     <div id="up-list"></div>
   </div>
 </section>
