@@ -69,7 +69,7 @@ function normalize(parsed,meta,opts){
     let sg,letter,unk,stereo,correct,tcorrect,model;
     if(schema==='classified'){
       model=col(r,'model')||'uploaded';letter=isNA(col(r,'letter'))?null:String(col(r,'letter')).trim();if(!letter){unparsed++;continue;}
-      sg=col(r,'sg_inst');unk=truthy(col(r,'is_unknown'));stereo=truthy(col(r,'is_stereo'));correct=truthy(col(r,'is_correct'));tcorrect=truthy(col(r,'target_is_correct'));
+      sg=col(r,'sg_inst');unk=truthy(col(r,'is_unknown'));stereo=truthy(col(r,'is_stereo'));correct=truthy(col(r,'is_correct'));tcorrect=(mrow.k&&mrow.k[ex]>=0)?mrow.k[ex]===1:truthy(col(r,'target_is_correct'));
       const qq=intOf(col(r,'qidx'));
       out.push({m:model,cat,qidx:qq==null?qidx:qq,ex,sg:isNA(sg)?'':sg,cond,pol,trial,temp,letter,unk,stereo,correct,tcorrect});models.add(model);
     }else{
@@ -85,7 +85,7 @@ function normalize(parsed,meta,opts){
       unk=up?letter===up:(ao?ao[pos]===mrow.u[ex]:false);
       stereo=tp?letter===tp:(ao&&mrow.t[ex]>=0?ao[pos]===mrow.t[ex]:false);
       correct=cp?letter===cp:(ao?ao[pos]===mrow.c[ex]:false);
-      tcorrect=(tp&&cp)?cp===tp:(ao&&mrow.t[ex]>=0?mrow.c[ex]===mrow.t[ex]:false);
+      tcorrect=(mrow.k&&mrow.k[ex]>=0)?mrow.k[ex]===1:((tp&&cp)?cp===tp:(ao&&mrow.t[ex]>=0?mrow.c[ex]===mrow.t[ex]:false));   // DSA basis: the correct answer is the group's individual (bbq_meta k), not BBQ's polarity-aware target slot
       out.push({m:'uploaded',cat,qidx,ex,sg,cond,pol,trial,temp,letter,unk,stereo,correct,tcorrect});models.add('uploaded');
     }
   }
