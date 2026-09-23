@@ -254,6 +254,10 @@ table.data td.small{color:var(--muted)}
 .measure .f{font-family:var(--mono);font-size:.94rem;background:var(--surface);padding:.3rem .5rem;border-radius:6px;margin:.4rem 0;display:inline-block;letter-spacing:0}
 .measure p{font-size:1rem;margin:0;color:var(--ink-2)}
 .measure .ex{color:var(--ink);margin-bottom:.6rem;line-height:1.5}
+.ms-one{max-width:80ch;margin:1rem 0 1.4rem;padding:1.6rem 1.8rem}
+.ms-one .abbr{font-size:2rem}
+.ms-one .ex{font-size:1.12rem}
+#ms-tabs{margin-top:.4rem}
 .measure .def{font-size:.94rem;color:var(--ink-2);padding-top:.5rem;border-top:1px solid var(--line)}
 .block p{font-size:1rem;color:var(--ink-2);margin:.4rem 0 0}
 .formula{font-family:var(--mono);font-size:1rem;letter-spacing:0;background:var(--surface-2);border:0;border-radius:var(--radius-s);padding:.8rem 1rem;display:inline-block;margin:.4rem 0 1rem}
