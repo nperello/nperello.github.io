@@ -377,6 +377,11 @@ table.data tr.row td:first-child::before{content:"›";position:absolute;left:.4
 .block .formula{font-size:.92rem;padding:.6rem .8rem}
 
 [hidden]{display:none!important}
+.crumbs{display:none}
+.chart-title{font-weight:600;font-size:1.08rem;margin:0 0 .25rem;color:var(--ink)}
+.chart-take{margin:0 0 .7rem;font-size:1rem;color:var(--ink-2);max-width:80ch;line-height:1.45}
+.axis-title{font-size:.94rem;color:var(--ink-2);text-align:center;margin:.3rem 0 .2rem}
+th.has-tip{text-decoration:underline dotted;text-underline-offset:3px;cursor:help}
 .topbar nav>span{display:contents}   /* the report-mode wrapper must not swallow the nav gap */
 /* phones */
 .model-select{display:none}
