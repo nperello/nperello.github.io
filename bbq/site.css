@@ -271,6 +271,7 @@ table.data td.small{color:var(--muted)}
 .scene .dots{display:grid;grid-template-columns:repeat(5,1fr);gap:.35rem;margin:.5rem 0 .3rem;max-width:12rem}
 .scene .dots i,.scene .dots-legend i{display:block;aspect-ratio:1;border-radius:5px;background:#5f5f64}
 .scene .dots i.ok,.scene .dots-legend i.ok{background:#0f8a5f}
+.scene .dots i.wrong,.scene .dots-legend i.wrong{background:#c8321a}
 .scene .dots-legend{display:flex;gap:1rem;font-size:.92rem;color:var(--ink-2);margin-bottom:.2rem}
 .scene .dots-legend span{display:inline-flex;align-items:center;gap:.35rem}
 .scene .dots-legend i{width:.9rem;height:.9rem;aspect-ratio:auto}
