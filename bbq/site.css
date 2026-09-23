@@ -240,7 +240,7 @@ table.data td.small{color:var(--muted)}
 .chips{display:flex;flex-wrap:wrap;gap:.3rem .5rem;align-items:center;font-size:.88rem;margin-top:.35rem}
 .chips .who{color:var(--muted);min-width:5.4rem;font-size:.86rem}
 .chip{display:inline-block;width:26px;height:26px;line-height:26px;text-align:center;font-weight:700;font-size:.9rem;border:0;border-radius:7px;background:var(--surface-3);color:var(--ink-2)}
-.chip.U{background:var(--surface-3);color:var(--ink-2)}
+.chip.U{background:#5f5f64;color:#fff}
 .chip.C{background:#0f8a5f;color:#fff}
 .chip.W{background:#c8321a;color:#fff}
 .chips.sel .who{font-weight:600;color:var(--ink)}
@@ -264,7 +264,7 @@ table.data td.small{color:var(--muted)}
 .scene .choices{display:flex;flex-direction:column;gap:.3rem}
 .scene .c{padding:.35rem .6rem;border-radius:8px;background:var(--surface-2);font-size:.96rem}
 .scene .c.pick{font-weight:600}
-.scene .c.pick.U{background:var(--surface-3);color:var(--ink)}
+.scene .c.pick.U{background:#5f5f64;color:#fff}
 .scene .c.pick.C{background:#0f8a5f;color:#fff}
 .scene .c.pick.W{background:#c8321a;color:#fff}
 .scene .bar-cell{margin-top:.5rem}
