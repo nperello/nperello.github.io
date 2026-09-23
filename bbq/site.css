@@ -253,6 +253,9 @@ table.data td.small{color:var(--muted)}
 .measure .name{font-size:1.02rem;color:var(--ink);margin-bottom:.4rem}
 .measure .f{font-family:var(--mono);font-size:.94rem;background:var(--surface);padding:.3rem .5rem;border-radius:6px;margin:.4rem 0;display:inline-block;letter-spacing:0}
 .measure p{font-size:1rem;margin:0;color:var(--ink-2)}
+.measure .ex{color:var(--ink);margin-bottom:.6rem;line-height:1.5}
+.measure .def{font-size:.94rem;color:var(--ink-2);padding-top:.5rem;border-top:1px solid var(--line)}
+.block p{font-size:1rem;color:var(--ink-2);margin:.4rem 0 0}
 .formula{font-family:var(--mono);font-size:1rem;letter-spacing:0;background:var(--surface-2);border:0;border-radius:var(--radius-s);padding:.8rem 1rem;display:inline-block;margin:.4rem 0 1rem}
 .formula .frac{display:inline-flex;flex-direction:column;align-items:center;vertical-align:middle;margin:0 .3rem}
 .formula .frac span{padding:0 .3rem}
