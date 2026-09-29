@@ -438,7 +438,7 @@ table.data tr.row td:first-child::before{content:"›";position:absolute;left:.4
 .hero-decomp .mini .who{color:var(--ink-2);font-size:.92rem;margin:-.3rem 0 .5rem}
 .hero-decomp .mini .q{font-style:italic;color:var(--ink-2);margin:.1rem 0 .5rem;font-size:.96rem}
 .hero-decomp .mini .l{margin-top:.4rem;color:var(--ink-2);font-size:.96rem}
-.hero-decomp .mini svg text{font-size:14px}
+.hero-decomp .mini svg text{font-size:16px}
 .hero-decomp svg.big-lbl text{font-size:16px}
 .hero-decomp .l{margin-top:.6rem;color:var(--ink-2);line-height:1.4}
 .hero-stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:1rem;margin-bottom:1.4rem}
