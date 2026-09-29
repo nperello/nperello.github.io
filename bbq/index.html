@@ -4,6 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex">
+<script>(function(){var t="dark";try{t=localStorage.getItem("bbq-theme")||"dark";}catch(e){}document.documentElement.setAttribute("data-theme",t==="light"?"light":"dark");})();</script>
 <title>BBQ Tiered Report</title>
 <meta name="description" content="A prototype of tiered BBQ reporting: headline, per-category, per-group, and per-template views with abstention-aware measures, intervals, and the evaluation setup, for five models from three labs.">
 <link rel="stylesheet" href="site.css">
@@ -14,7 +15,7 @@
 <main>
 <div class="topbar">
   <div class="brand">BBQ Tiered Report <small>Prototype reporting for a bias benchmark</small></div>
-  <nav><span class="paper-only"><a href="paper.pdf" class="pdf-link" data-doc="paper">Paper (PDF)</a><a href="supplement.pdf" class="pdf-link" data-doc="supplement">Supplement (PDF)</a></span><a href="#" id="nav-about">How to read this</a><a href="#" id="nav-setup">Evaluation setup</a></nav>
+  <nav><span class="paper-only"><a href="paper.pdf" class="pdf-link" data-doc="paper">Paper (PDF)</a><a href="supplement.pdf" class="pdf-link" data-doc="supplement">Supplement (PDF)</a></span><a href="#" id="nav-about">How to read this</a><a href="#" id="nav-setup">Evaluation setup</a><button type="button" id="theme-toggle" class="theme-toggle" aria-pressed="false">Light mode</button></nav>
 </div>
 <div class="report-head">
   <div class="eyebrow">Bias benchmark reporting · prototype</div>
@@ -600,6 +601,7 @@ if(!D.ladder){const d=document.getElementById('pt-ladder-details');if(d)d.hidden
 if(D.title){const h=document.querySelector('.report-head h1');if(h)h.textContent=D.title;}
 if(D.lede){const l=document.querySelector('.report-head .lede');if(l)l.textContent=D.lede;}
 if(!PAPER){const h=document.getElementById('start-hint');if(h)h.textContent=(MODELS.length===1?'One model':MODELS.length+' models')+', every value computed under one setup';}
+(function(){const b=document.getElementById('theme-toggle');if(!b)return;const cur=()=>document.documentElement.getAttribute('data-theme')==='light'?'light':'dark';const paint=()=>{const t=cur();b.textContent=t==='light'?'Dark mode':'Light mode';b.setAttribute('aria-pressed',t==='light'?'true':'false');};b.addEventListener('click',()=>{const t=cur()==='light'?'dark':'light';document.documentElement.setAttribute('data-theme',t);try{localStorage.setItem('bbq-theme',t);}catch(e){}paint();});paint();})();
 readHash();render();
 })();
 </script>
